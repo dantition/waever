@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SonicForge — Core MIDI Generation Engine
+WÆver — Core MIDI Generation Engine
 Handles MIDI creation, timing, velocity, and humanization.
 """
 
@@ -193,6 +193,6 @@ def generate_midi(config: dict) -> str:
                 drum_track.pattern(pattern, bar_time, 16, 100, swing)
     
     # Save
-    output = config.get('output', 'sonicforge_output.mid')
+    output = config.get('output', 'waever_output.mid')
     comp.save(output)
     return output

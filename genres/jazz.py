@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SonicForge — Jazz Genre Generator
+WÆver — Jazz Genre Generator
 Swing feel, 7th chords, walking bass, ride patterns.
 """
 

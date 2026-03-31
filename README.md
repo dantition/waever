@@ -1,4 +1,4 @@
-# 🎵 SonicForge v1.0
+# 🎵 WÆver v1.0
 
 **Open Source Music Toolkit** — Generate, analyze, and create music from the command line.
 
@@ -14,38 +14,38 @@
 
 ```bash
 pip install midiutil
-python sonicforge.py info                    # See all options
-python sonicforge.py generate jazz --key Bb  # Generate a jazz piece
-python sonicforge.py generate trap --wav     # Generate trap + render WAV
+python waever.py info                    # See all options
+python waever.py generate jazz --key Bb  # Generate a jazz piece
+python waever.py generate trap --wav     # Generate trap + render WAV
 ```
 
 ## Commands
 
 ### Generate
 ```bash
-python sonicforge.py generate <genre> [options]
+python waever.py generate <genre> [options]
 
 # Examples:
-python sonicforge.py generate orchestral --key A --scale minor --mood dramatic --wav
-python sonicforge.py generate jazz --style blues --key Bb --bars 32
-python sonicforge.py generate breakcore --chaos 0.9 --tempo 200
-python sonicforge.py generate lofi --key C --bars 16
-python sonicforge.py generate trap --key C# --bars 8
-python sonicforge.py generate metal --key E --tempo 160
-python sonicforge.py generate rock --key G --scale major
-python sonicforge.py generate ambient --key D --bars 24
+python waever.py generate orchestral --key A --scale minor --mood dramatic --wav
+python waever.py generate jazz --style blues --key Bb --bars 32
+python waever.py generate breakcore --chaos 0.9 --tempo 200
+python waever.py generate lofi --key C --bars 16
+python waever.py generate trap --key C# --bars 8
+python waever.py generate metal --key E --tempo 160
+python waever.py generate rock --key G --scale major
+python waever.py generate ambient --key D --bars 24
 ```
 
 ### Analyze
 ```bash
-python sonicforge.py analyze track.mid   # MIDI → WAV → full analysis
-python sonicforge.py analyze track.wav   # WAV → analysis only
+python waever.py analyze track.mid   # MIDI → WAV → full analysis
+python waever.py analyze track.wav   # WAV → analysis only
 ```
 
 ### Chord Progressions
 ```bash
-python sonicforge.py chords                          # List all progressions
-python sonicforge.py chords --key Am --progression 251  # Show ii-V-I in Am
+python waever.py chords                          # List all progressions
+python waever.py chords --key Am --progression 251  # Show ii-V-I in Am
 ```
 
 ## Genres
@@ -92,8 +92,8 @@ python sonicforge.py chords --key Am --progression 251  # Show ii-V-I in Am
 ## Architecture
 
 ```
-sonicforge/
-├── sonicforge.py      # CLI entry point
+waever/
+├── waever.py      # CLI entry point
 ├── core.py            # MIDI generation engine
 ├── theory.py          # Music theory (scales, chords, progressions)
 ├── analyze.py         # Audio analysis (librosa wrapper)
@@ -114,4 +114,4 @@ MIT — Free to use, modify, and distribute.
 
 ## Credits
 
-Built with ❤️ by SonicForge. Powered by midiutil, fluidsynth, and librosa.
+Built with ❤️ by WÆver. Powered by midiutil, fluidsynth, and librosa.

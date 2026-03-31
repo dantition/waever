@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SonicForge — Audio Analysis Module (wraps librosa)"""
+"""WÆver — Audio Analysis Module (wraps librosa)"""
 import subprocess
 import json
 import os

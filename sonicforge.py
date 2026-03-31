@@ -1,23 +1,23 @@
 #!/usr/bin/env python3
 """
-SonicForge — Open Source Music Toolkit
+WÆver — Open Source Music Toolkit
 Generate, analyze, and create music from the command line.
 
 Usage:
-    python sonicforge.py generate <genre> [options]
-    python sonicforge.py analyze <file>
-    python sonicforge.py chords --key <key> --progression <name>
-    python sonicforge.py info
+    python waever.py generate <genre> [options]
+    python waever.py analyze <file>
+    python waever.py chords --key <key> --progression <name>
+    python waever.py info
 
 Genres: orchestral, jazz, trap, lofi, breakcore, metal, rock, ambient
 
 Examples:
-    python sonicforge.py generate orchestral --key A --scale minor --mood dramatic
-    python sonicforge.py generate trap --tempo 150 --key C# --bars 8
-    python sonicforge.py generate jazz --style blues --key Bb
-    python sonicforge.py generate breakcore --chaos 0.9 --tempo 200
-    python sonicforge.py analyze track.mid
-    python sonicforge.py chords --key Am --progression 251
+    python waever.py generate orchestral --key A --scale minor --mood dramatic
+    python waever.py generate trap --tempo 150 --key C# --bars 8
+    python waever.py generate jazz --style blues --key Bb
+    python waever.py generate breakcore --chaos 0.9 --tempo 200
+    python waever.py analyze track.mid
+    python waever.py chords --key Am --progression 251
 """
 
 import sys
@@ -74,7 +74,7 @@ def cmd_generate(args):
     if args.chaos is not None:
         config['chaos'] = args.chaos
     
-    print(f"\n🎵 SonicForge — Generating {genre.upper()}")
+    print(f"\n🎵 WÆver — Generating {genre.upper()}")
     print(f"   Key: {config['key']} {config['scale']} | Tempo: {config.get('tempo', 'auto')}")
     print(f"   Bars: {config['bars']} | Output: {config['output']}")
     print()
@@ -200,10 +200,10 @@ PROGRESSIONS: """ + ', '.join(PROGRESSIONS.keys()) + """
 
 def main():
     parser = argparse.ArgumentParser(
-        prog='sonicforge',
-        description='🎵 SonicForge — Open Source Music Toolkit',
+        prog='waever',
+        description='🎵 WÆver — Open Source Music Toolkit',
         formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog='Example: python sonicforge.py generate jazz --key Bb --style blues --bars 16'
+        epilog='Example: python waever.py generate jazz --key Bb --style blues --bars 16'
     )
     
     subparsers = parser.add_subparsers(dest='command')

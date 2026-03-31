@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SonicForge — Lo-fi Genre Generator
+WÆver — Lo-fi Genre Generator
 Jazzy chords, swing drums, mellow vibes.
 """
 

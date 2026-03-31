@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SonicForge — Rock Genre Generator"""
+"""WÆver — Rock Genre Generator"""
 import random
 from core import SonicComposition, DrumTrack
 from theory import PROGRESSIONS, get_scale_note

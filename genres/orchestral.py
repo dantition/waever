@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SonicForge — Orchestral Genre Generator
+WÆver — Orchestral Genre Generator
 Dramatic orchestral pieces with strings, brass, woodwinds.
 """
 

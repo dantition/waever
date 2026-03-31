@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SonicForge — Breakcore Genre Generator
+WÆver — Breakcore Genre Generator
 Chopped breaks, tempo changes, controlled chaos.
 """
 

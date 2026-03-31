@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SonicForge — Music Theory Library
+WÆver — Music Theory Library
 Core scales, chords, progressions, and utilities.
 """
 

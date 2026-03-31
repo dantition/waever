@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SonicForge — Ambient Genre Generator"""
+"""WÆver — Ambient Genre Generator"""
 import random
 from core import SonicComposition, DrumTrack
 from theory import get_scale_note, SCALES

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SonicForge — Trap Genre Generator
+WÆver — Trap Genre Generator
 808 bass, hi-hat rolls, minor scales, dark vibes.
 """
 
